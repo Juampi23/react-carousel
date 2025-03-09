@@ -14,7 +14,7 @@ const Carousel = ({ delay = 1000, children }) => {
   useEffect(() => {
     const timer = setInterval(goNext, delay);
     return () => clearInterval(timer);
-  }, [current]); // In a dynamic scenario I should add delay and items.length as array dependices. For this case just current is enough.
+  }, [current]); // In a dynamic scenario I should add delay and items.length as array dependencies. For this case just current is enough.
 
   return (
     <div className="carousel">
