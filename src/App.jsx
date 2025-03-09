@@ -16,7 +16,7 @@ function App() {
     <a key="sparq" href="https://www.teamsparq.com/" target="_blank">
     <img src={sparqLogo} className="logo sparq" alt="Sparq logo" />
     </a>,    
-    <a key="github" href="https://github.com/Juampi23" target="_blank">
+    <a key="github" href="https://github.com/Juampi23/react-carousel" target="_blank">
       <img src={githubLogo} className="logo github" alt="GitHub logo" />
     </a>,
   ];
