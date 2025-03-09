@@ -7,7 +7,7 @@ const Carousel = ({ delay = 1000, children }) => {
 
   const [current, setCurrent] = useState(0);
 
-  // I had to investigate this mod usage, it's a clever way to make a continuos loop
+  // Using modulus operator to avoid going out of bounds.
   const goNext = () => setCurrent((current + 1) % items.length);
   const goPrevious = () => setCurrent((current - 1 + items.length) % items.length);
 
