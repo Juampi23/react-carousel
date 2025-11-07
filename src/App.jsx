@@ -1,11 +1,11 @@
-import Carousel from './components/carousel'
+import Carousel from './components/Carousel'
 import reactLogo from './assets/react.svg'
 import githubLogo from './assets/github.svg'
 import sparqLogo from './assets/sparq.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
+const App = () => {
   const carouselItems = [
     <a key="vite" href="https://vite.dev" target="_blank">
     <img src={viteLogo} className="logo" alt="Vite logo" />
